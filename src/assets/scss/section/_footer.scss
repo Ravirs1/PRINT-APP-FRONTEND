@@ -1,5 +1,13 @@
 /*  07. footer area css here */
 
+.footer-logo {
+    height: 200px;
+}
+
+.nav-list {
+    padding-left: 0;
+}
+
 .footer_top {
 	padding: 48px 0 38px;
     @media #{$desktop-device}{
