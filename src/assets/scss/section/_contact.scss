@@ -70,8 +70,8 @@
         text-transform: capitalize;
         border: none;
         background: $fonts_color;
-        color: $white;
-        cursor: pointer;
+        color: $white !important;
+        cursor: pointer !important;
         @include transition(.3s);
         border-radius: 4px;
         &:hover{

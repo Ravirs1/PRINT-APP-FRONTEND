@@ -517,19 +517,44 @@
 	-ms-flex-pack: end;
 	justify-content: flex-end;
 	align-items: center;
-    @media #{$large-mobile}{
-        justify-content: center;
+    @media #{$tablet-device}{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+     @media #{$large-mobile}{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+     @media #{$small-mobile2}{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         flex-direction: column;
-    }
-    
+     }
+     @media #{$small-mobile}{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+     }
+     
 }
 .search-container{
     margin-right: 82px;
     @media #{$tablet-device}{
-       display: none;
+       display: block;
     }
     @media #{$large-mobile}{
-        display: none;
+        display: block;
+    }
+    @media #{$small-mobile2}{
+        margin-right: 0;
+    }
+    @media #{$small-mobile}{
+        margin-right: 0;
     }
 }
 .search_box{
@@ -539,6 +564,21 @@
     border-radius: 5px;
     @media #{$desktop-device}{
        width: 360px;
+    }
+    @media #{$tablet-device}{
+        width: 20rem;
+     }
+     @media #{$large-mobile}{
+         width: 20rem;
+         margin-bottom: 2rem;
+     }
+     @media #{$small-mobile2}{
+        width: 15rem;
+        margin-bottom: 2rem;
+    }
+    @media #{$small-mobile}{
+        width: 15rem;
+        margin-bottom: 2rem;
     }
     & input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
       color: #9e9e9e;
