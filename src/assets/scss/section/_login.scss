@@ -39,7 +39,7 @@
     & button{
         background: $secondary_color;
         border: 0;
-        color: $white;
+        color: $white !important;
         display: inline-block;
         font-size: 12px;
         font-weight: 700;

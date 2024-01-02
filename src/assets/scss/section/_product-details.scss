@@ -145,6 +145,7 @@
                 text-align: center;
                 &:hover{
                     background: $fonts_color;
+                    color: $white !important;
                 }
             }
         }
@@ -207,6 +208,7 @@
             }
             &:hover{
                 background: $fonts_color6;
+                color: $white !important;
             }
         }
     }

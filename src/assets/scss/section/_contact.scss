@@ -69,13 +69,13 @@
         padding: 0 30px;
         text-transform: capitalize;
         border: none;
-        background: $fonts_color;
+        background: $secondary_color;
         color: $white !important;
         cursor: pointer !important;
         @include transition(.3s);
         border-radius: 4px;
         &:hover{
-            background: $secondary_color;
+            background: $fonts_color;
         }
     }
     &.content{

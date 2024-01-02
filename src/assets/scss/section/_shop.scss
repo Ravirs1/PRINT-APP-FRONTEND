@@ -205,7 +205,7 @@
             line-height: 30px;
             padding: 0 20px;
             text-transform: capitalize;
-            color: $white;
+            color: $white !important;
             background: $fonts_color;
             border: 0;
             border-radius: 30px;
@@ -613,7 +613,7 @@
         }
         &:hover{
             background: $fonts_color;
-            color: $body-color;
+            color: $body-color !important;
         }
     }
 }

@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardHomeComponent implements OnInit {
 
+  productList = [
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

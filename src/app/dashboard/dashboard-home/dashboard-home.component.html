@@ -6,7 +6,7 @@
     <section class="slider_section mb-50">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12">
+                <!-- <div class="col-lg-3 col-md-12">
                     <div class="categories_menu">
                         <div class="categories_title">
                             <h2 class="categori_toggle">Browse categories</h2>
@@ -184,8 +184,8 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-9 col-md-12">
+                </div> -->
+                <!-- <div class="col-lg-9 col-md-12">
                     <div class="slider_area owl-carousel">
                         <div class="single_slider d-flex align-items-center" data-bgimg="assets/img/slider/slider1.jpg">
                             <div class="slider_content">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -270,7 +270,7 @@
     <!--product area start-->
     <section class="product_area mb-50">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12">
                     <div class="section_title">
                         <h2><span> <strong>Our</strong>Products</span></h2>
@@ -287,9 +287,9 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="tab-content">
+            <!-- <div class="tab-content">
                 <div class="tab-pane fade show active" id="brake" role="tabpanel">
                     <div class="product_carousel product_column5 owl-carousel">
                         <div class="single_product">
@@ -1151,13 +1151,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!--product area end-->
 
     <!--featured categories area start-->
-    <section class="featured_categories mb-50">
+    <!-- <section class="featured_categories mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1315,11 +1315,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--featured categories area end-->
 
     <!--small product area start-->
-    <section class="small_product_area mb-50">
+    <!-- <section class="small_product_area mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1414,11 +1414,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--small product area end-->
 
     <!--small product area start-->
-    <section class="small_product_area mb-50">
+    <!-- <section class="small_product_area mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1512,7 +1512,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--small product area end-->
 
     <!--banner area start-->
@@ -1549,7 +1549,7 @@
     <!--banner area end-->
 
     <!--product area start-->
-    <section class="product_area mb-50">
+    <!-- <section class="product_area mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1845,11 +1845,11 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
     <!--product area end-->
 
     <!--brand area start-->
-    <div class="brand_area mb-42">
+    <!-- <div class="brand_area mb-42">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1876,7 +1876,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--brand area end-->
 
     <!--custom product area-->
@@ -1890,278 +1890,30 @@
                             <h2><span>Featured Products </span></h2>
                         </div>
                         <div class="small_product_items small_product_active">
-                            <div class="single_product_items" [routerLink]="['product', '12']">
+                            <div class="single_product_items" *ngFor="let product of productList" routerLink="product/{{product.productId}}">
                                 <div class="product_thumb">
-                                    <a ><img src="assets/img/product/product1.jpg" alt=""></a>
+                                    <a ><img src="{{product.productImg}}" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
-                                        <h3><a >Variable with soldout product for title</a></h3>
+                                        <h3><a >{{product.productTitle}}</a></h3>
                                     </div>
                                     <div class="product_ratings">
-                                        <ul>
+                                        <!-- <ul>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
+                                        <span class="current_price">{{product.productPrice}}</span>
+                                        <span class="old_price">{{ product.productMrp }}</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">JBL Flip 3 Splashproof Portable Bluetooth</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$170.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Kodak PIXPRO Astro Zoom AZ421 16 MP</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$160.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Variable with soldout product for title</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">JBL Flip 3 Splashproof Portable Bluetooth</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$170.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Kodak PIXPRO Astro Zoom AZ421 16 MP</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$160.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                     <!--featured product end-->
@@ -2173,275 +1925,26 @@
                             <h2><span>Most view products </span></h2>
                         </div>
                         <div class="small_product_items small_product_active">
-                            <div class="single_product_items">
+                            <div class="single_product_items" *ngFor="let product of productList" routerLink="product/{{product.productId}}">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                    <a ><img src="{{product.productImg}}" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
+                                        <h3><a >{{product.productTitle}}</a></h3>
                                     </div>
                                     <div class="product_ratings">
-                                        <ul>
+                                        <!-- <ul>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="price_box">
-                                        <span class="current_price">$170.00</span>
-                                        <span class="old_price">$430.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$170.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Kodak PIXPRO Astro Zoom AZ421 16 MP</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$160.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$160.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$170.00</span>
-                                        <span class="old_price">$430.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$170.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Kodak PIXPRO Astro Zoom AZ421 16 MP</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$160.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$160.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
+                                        <span class="current_price">{{product.productPrice}}</span>
+                                        <span class="old_price">{{ product.productMrp }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -2456,275 +1959,26 @@
                             <h2><span>bestseller products </span></h2>
                         </div>
                         <div class="small_product_items small_product_active">
-                            <div class="single_product_items">
+                            <div class="single_product_items" *ngFor="let product of productList" routerLink="product/{{product.productId}}">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                    <a ><img src="{{product.productImg}}" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
-                                        <h3><a href="product-details.html">Variable with soldout product for title</a></h3>
+                                        <h3><a >{{product.productTitle}}</a></h3>
                                     </div>
                                     <div class="product_ratings">
-                                        <ul>
+                                        <!-- <ul>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
                                             <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">JBL Flip 3 Splashproof Portable Bluetooth</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$170.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Kodak PIXPRO Astro Zoom AZ421 16 MP</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$160.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Variable with soldout product for title</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">JBL Flip 3 Splashproof Portable Bluetooth</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$170.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Kodak PIXPRO Astro Zoom AZ421 16 MP</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="regular_price">$160.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">Accusantium dolorem Security Camera</a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_product_items">
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
-                                </div>
-                                <div class="product_content">
-                                    <div class="product_name">
-                                        <h3><a href="product-details.html">1. New and sale new badge product </a></h3>
-                                    </div>
-                                    <div class="product_ratings">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price_box">
-                                        <span class="current_price">$180.00</span>
-                                        <span class="old_price">$420.00</span>
+                                        <span class="current_price">{{product.productPrice}}</span>
+                                        <span class="old_price">{{ product.productMrp }}</span>
                                     </div>
                                 </div>
                             </div>

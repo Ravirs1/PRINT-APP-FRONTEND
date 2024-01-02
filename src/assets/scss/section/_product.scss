@@ -677,7 +677,7 @@
                 }
                 &:hover{
                     background: $fonts_color;
-                    color: $body-color;
+                    color: $body-color !important;
                 }
             }
         }
