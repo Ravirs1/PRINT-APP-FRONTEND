@@ -14,6 +14,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { FaqComponent } from './faq/faq.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { AccountDetailsComponent } from './account-details/account-details.component';
+import { ProductListService } from './product-list/product-list.service';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { AccountDetailsComponent } from './account-details/account-details.compo
     DashboardRoutingModule,
     SharedModule
   ],
-  exports:[SharedModule]
+  exports:[SharedModule],
+  providers: [ProductListService]
 })
 export class DashboardModule { }
