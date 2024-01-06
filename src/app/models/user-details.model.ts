@@ -2,6 +2,7 @@
 export interface UserDetail {
     userId: string;
     firstName: string;
+    userRole:string;
     lastName: string;
     email: string;
     phoneNumber?: string; // Optional property
