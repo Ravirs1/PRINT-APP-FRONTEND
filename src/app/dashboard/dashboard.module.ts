@@ -15,6 +15,9 @@ import { FaqComponent } from './faq/faq.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { AccountDetailsComponent } from './account-details/account-details.component';
 import { ProductListService } from './product-list/product-list.service';
+import { AccountDetailsService } from './account-details/account-details.service';
+import { CartService } from './cart/cart.service';
+import { OrderService } from './account-details/order.service';
 
 
 @NgModule({
@@ -38,6 +41,10 @@ import { ProductListService } from './product-list/product-list.service';
     SharedModule
   ],
   exports:[SharedModule],
-  providers: [ProductListService]
+  providers: [ProductListService,
+    AccountDetailsService,
+    CartService,
+    OrderService
+  ]
 })
 export class DashboardModule { }
