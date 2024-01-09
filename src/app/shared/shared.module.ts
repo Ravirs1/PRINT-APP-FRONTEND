@@ -6,6 +6,7 @@ import { ApiUrlService } from './services/api-url.service';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MaterialModule } from './material.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,9 +17,14 @@ import { MaterialModule } from './material.module';
   imports: [
     CommonModule,
     SharedRoutingModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  exports: [HeaderComponent, FooterComponent,MaterialModule],
+  exports: [HeaderComponent,
+     FooterComponent,
+     MaterialModule,
+    FormsModule],
   providers: [SharedService,
   ApiUrlService
 ]

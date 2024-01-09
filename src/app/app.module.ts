@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { APIInterceptor } from './shared/services/api.interceptor';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Firebase services + environment module
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
@@ -26,6 +27,7 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     SharedModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     AngularFireAuthModule,
     AngularFirestoreModule,
     AngularFireStorageModule,

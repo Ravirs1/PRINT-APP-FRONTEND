@@ -128,17 +128,14 @@
         {
             "productId": 1,
             "productName": "PetrolBluePoloT-shirt",
-            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .","productCategory": "T-shirt",
+            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
+            "productCategory": "T-shirt",
             "productPrice": 999,
             "productMRP": 1599,
             "productColor": "PetrolBlue",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["M","L","XL",]",
+            "productSize": ["M","L","XL"],
             "productFitType": "RegularFit",
             "productMaterial": "Cottonblend",
             "productSubCategory": "T-shirt",
@@ -159,24 +156,22 @@ Versatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-       6
         },
         {
             "productId": 1,
-            "productName": "OlivePoloT-shirt"productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .","productCategory": "T-shirt",
+            "productName": "OlivePoloT-shirt",
+            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
+            "productCategory": "T-shirt",
             "productPrice": 999,
             "productMRP": 1599,
             "productColor": "OliveGreen",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["M","L","XL",]",
+            "productSize": ["M","L","XL"],
             "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
-            "productSubCategory": "T-shirt"productCode": "",
+            "productSubCategory": "T-shirt",
+            "productCode": "",
             "productOccasion": "Casual",
             "productPattern": "Solid",
             "productGender": "Male",
@@ -184,7 +179,8 @@ Versatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
             "productNeckStyle": "Polo",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": "200G,"productNumberOfStocks": 15,
+            "productWeight": "200G",
+            "productNumberOfStocks": 15,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Shortsleeve",
@@ -192,22 +188,18 @@ Versatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-       7
         },
         {
-            "productId": 2
+            "productId": 2,
             "productName": "Bluehoodie",
-            "productDescription": "Hoodie in sweatshirt fabric made from a cotton blend. Relaxed fit with a lined, drawstring hood, long sleeves, kangaroo pocket and ribbing at the cuffs and hem. Soft brushed inside. 
-  Designed with a regular fit, this Blue Hoodie provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This BlacK Hoodie offers exceptional softness and comfort
-
-Give a smart finish to your winter ensemble in the blue hoodie .","productCategory": "Hoodie",
+            "productDescription": "Hoodie in sweatshirt fabric made from a cotton blend. Relaxed fit with a lined, drawstring hood, long sleeves, kangaroo pocket and ribbing at the cuffs and hem. Soft brushed inside. Designed with a regular fit, this Blue Hoodie provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This BlacK Hoodie offers exceptional softness and comfortGive a smart finish to your winter ensemble in the blue hoodie .",
+            "productCategory": "Hoodie",
             "productPrice": 1099,
             "productMRP": 1999,
             "productColor": "Blue",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["Xl","XXL"]",
+            "productSize": ["Xl","XXL"],
             "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
             "productSubCategory": "T-shirt",
@@ -219,7 +211,8 @@ Give a smart finish to your winter ensemble in the blue hoodie .","productCatego
             "productNeckStyle": "Hooded",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 9,
+            "productWeight": "",
+            "productNumberOfStocks": 9,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Fullsleeve",
@@ -227,23 +220,18 @@ Give a smart finish to your winter ensemble in the blue hoodie .","productCatego
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-      8
         },
         {
-            "porductId": 2
-            "productName":Black hoodie""productMRP",
-            : 1999
-            "productDescription": "Hoodie in sweatshirt fabric made from a cotton blend. Relaxed fit with a lined, drawstring hood, long sleeves, kangaroo pocket and ribbing at the cuffs and hem. Soft brushed inside. 
-  Designed with a regular fit, this Blue Hoodie provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This BlacK Hoodie offers exceptional softness and comfort
-
-Give a smart finish to your winter ensemble in the blue hoodie .","productCategory": "Hoodie",
-            "productPrice": 1099,
+            "porductId": 2,
+            "productName":"Black hoodie",
             "productMRP": 1999,
+            "productDescription": "Hoodie in sweatshirt fabric made from a cotton blend. Relaxed fit with a lined, drawstring hood, long sleeves, kangaroo pocket and ribbing at the cuffs and hem. Soft brushed inside. Designed with a regular fit, this Blue Hoodie provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This BlacK Hoodie offers exceptional softness and comfortGive a smart finish to your winter ensemble in the blue hoodie .",
+            "productCategory": "Hoodie",
+            "productPrice": 1099,
             "productColor": "Black",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["Xl","XXL"]",
+            "productSize": ["Xl","XXL"],
             "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
             "productSubCategory": "Hoodie",
@@ -255,7 +243,8 @@ Give a smart finish to your winter ensemble in the blue hoodie .","productCatego
             "productNeckStyle": "Hooded",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": 550g","productNumberOfStocks": 10,
+            "productWeight": "550g",
+            "productNumberOfStocks": 10,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Londsleeve",
@@ -263,26 +252,18 @@ Give a smart finish to your winter ensemble in the blue hoodie .","productCatego
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-       9
         },
         {
-            "productId": 3
-            "productName":Whitesweatshirt
-            "productDescription": "This men’s Sweatshirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this Sweatshirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This Sweatshirt offers exceptional softness and comfort
-Versatile Round Neck and Full Sleeves smart-casual look or a laid-back style .
-Give a smart finish to your winter ensemble in the blue Sweatshirt","productCategory": "Sweatshirt",
+            "productId": 3,
+            "productName":"Whitesweatshirt",
+            "productDescription": "This men’s Sweatshirt features a solid pattern that never goes out of style .Comfortable Regular fit  Designed with a regular fit, this Sweatshirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This Sweatshirt offers exceptional softness and comfortVersatile Round Neck and Full Sleeves smart-casual look or a laid-back style .Give a smart finish to your winter ensemble in the blue Sweatshirt",
+            "productCategory": "Sweatshirt",
             "productPrice": 1099,
             "productMRP": 1999,
             "productColor": "White",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "[ "[
-                "Xl",
-                "XXL"
-            ]",",
+            "productSize": ["Xl","XXL"],
             "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
             "productSubCategory": "Sweatshirt",
@@ -294,7 +275,8 @@ Give a smart finish to your winter ensemble in the blue Sweatshirt","productCate
             "productNeckStyle": "Roundneck",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 10,
+            "productWeight": "",
+            "productNumberOfStocks": 10,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Fullsleeve",
@@ -302,23 +284,18 @@ Give a smart finish to your winter ensemble in the blue Sweatshirt","productCate
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-       10
         },
         {
-            "productId": 3
-            "productName":Greysweatshirt
-            "productDescription": "This men’s Sweatshirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this Sweatshirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This Sweatshirt offers exceptional softness and comfort
-Versatile Round Neck and Full Sleeves smart-casual look or a laid-back style .
-Give a smart finish to your winter ensemble in the blue Sweatshirt","productCategory": "Sweatshirt",
+            "productId": 3,
+            "productName":"Greysweatshirt",
+            "productDescription": "This men’s Sweatshirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this Sweatshirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This Sweatshirt offers exceptional softness and comfort Versatile Round Neck and Full Sleeves smart-casual look or a laid-back style .Give a smart finish to your winter ensemble in the blue Sweatshirt",
+            "productCategory": "Sweatshirt",
             "productPrice": 1099,
             "productMRP": 1999,
             "productColor": "Gre",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["Xl","XXL"]",
+            "productSize": ["Xl","XXL"],
             "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
             "productSubCategory": "Sweatshirt",
@@ -330,7 +307,8 @@ Give a smart finish to your winter ensemble in the blue Sweatshirt","productCate
             "productNeckStyle": "Roundneck",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 10,
+            "productWeight": "",
+            "productNumberOfStocks": 10,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Fullsleeve",
@@ -338,23 +316,19 @@ Give a smart finish to your winter ensemble in the blue Sweatshirt","productCate
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-      11
         },
         {
-            "poductid": 4
-            "productName":WhiteV-neckT-shirt
-            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
-","productCategory": "T-shirt",
+            "productId": 4,
+            "productName":"White V-neck T-shirt",
+            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile V-Neck and Short Sleeves smart-casual look or a laid-back style .",
+            "productCategory": "T-shirt",
             "productPrice": 499,
             "productMRP": 999,
             "productColor": "White",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["M","L","XL",],"productFitType": "Regularfit",
+            "productSize": ["M","L","XL"],
+            "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
             "productSubCategory": "T-shirt",
             "productCode": "",
@@ -365,7 +339,8 @@ Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
             "productNeckStyle": "V-neck",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": 15,
+            "productWeight": "200g",
+            "productNumberOfStocks": 15,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Short",
@@ -373,23 +348,18 @@ Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-      12
         },
         {
-            "productId": 4
-            "productName":BlueV-neckT-shirt
-            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
-","productCategory": "T-shirt",
+            "productId": 4,
+            "productName":"BlueV-neckT-shirt",
+            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile V-Neck and Short Sleeves smart-casual look or a laid-back style .",
+            "productCategory": "T-shirt",
             "productPrice": 499,
             "productMRP": 999,
             "productColor": "Blue",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["M","L","XL",]",
+            "productSize": ["M","L","XL"],
             "productFitType": "Regularfit",
             "productMaterial": "CottonBlend",
             "productSubCategory": "",
@@ -401,7 +371,8 @@ Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
             "productNeckStyle": "V-neck",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 15,
+            "productWeight": "",
+            "productNumberOfStocks": 15,
             "productPostedDate": "",
             "productTrending": true,
             "productSleeveType": "Shortsleeve",
@@ -409,361 +380,53 @@ Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-      13
         },
         {
-            "productId": 4
-            "productName":BlackV-neckT-shirt","productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile V-Neck and Short Sleeves smart-casual look or a laid-back style .
-","productCategory": "T-shirt",
-            "productPrice": 499,
-            "productMRP": 999,
-            "productColor": "Black",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "V-neck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Shortsleeve",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-     14
-        },
-        {
-            "productId": 5
-            "productName":RedfullsleeveT-shirt
-            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile Round Neck and Full Sleeves smart-casual look or a laid-back style .","productCategory": "T-shirt",
-            "productPrice": 599,
-            "productMRP": 1299,
-            "productColor": "Red",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "RoundNeck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Fullsleeve",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-      15
-        },
-        {
-            "productId": 5
-            "productName":BlackFullsleeveT-shirt
-            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile Round Neck and Full Sleeves smart-casual look or a laid-back style .","productCategory": "T-shirt",
-            "productPrice": 599,
-            "productMRP": 1299,
-            "productColor": "Black",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "Roundneck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Fullsleeve",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-     16
-        },
-        {
-            "productId": 5
-            "productName":WhitefullsleeveT-shirt","productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile Round Neck and Full Sleeves smart-casual look or a laid-back style .","productCategory": "T-shirt",
-            "productPrice": 599,
-            "productMRP": 1299,
-            "productColor": "White",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "RoundNeck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": ,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Fullsleeve",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-      17
-        },
-        {
-            "productId": 6
-            "productName":Black Vest
-            "productDescription": "This Vest is perfect choice for Versatile and casual look. This Vest Crafted from a high quality Cotton blend Fabric, this Vest offers a soft and comfortable feel against your skin. Simply follow the Machine wash instruction on the tag, and keep your Vest clean and fresh without and hassle. ",
-            "productCategory": "Vest",
-            "productPrice": 299,
-            "productMRP": 599,
-            "productColor": "Black",
-            "productDiscount": "50%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "vest",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "V-Neck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Sleevesless",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-     18
-        },
-        {
-            "productId": 6
-            "productName":Grey Vest
-            "productDescription": "This Vest is perfect choice for Versatile and casual look. This Vest Crafted from a high quality Cotton blend Fabric, this Vest offers a soft and comfortable feel against your skin. Simply follow the Machine wash instruction on the tag, and keep your Vest clean and fresh without and hassle. ",
-            "productCategory": "Vest",
-            "productPrice": 299,
-            "productMRP": 599,
-            "productColor": "Grey",
-            "productDiscount": "50%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "Vest",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "V-neck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Sleeveless",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-     19
-        },
-        {
-            "productId": 7
-            "productName":RedLongTop
-            "productDescription": "Versatile styling and Regular Red long Top and very comfortable
- 
-Perfect Fit 
-This top's well-tailored style provides a flattering fit that complements a variety of body types
-Soft Fabric
-This top is made of premium, high-quality cotton and is a testament to comfort and breathability. It'd your go-to option for staying cool and comfy, especially on hot days.","productCategory": "LongTop",
-            "productPrice": 499,
-            "productMRP": 799,
-            "productColor": "Red",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["S","M","L"]",
-            "productFitType": "Regularfti",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "LongTop",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Female",
-            "productAgeRange": "",
-            "productNeckStyle": "RoundNeck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": 20,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "Halfsleeve",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-      20
-        },
-        {
-            "ProductId": 7
-            "productName":BlackLongTop
-            "productDescription": "Versatile styling and Regular Red long Top and very comfortable
- 
-Perfect Fit 
-This top's well-tailored style provides a flattering fit that complements a variety of body types
-Soft Fabric
-This top is made of premium, high-quality cotton and is a testament to comfort and breathability. It'd your go-to option for staying cool and comfy, especially on hot days.","productCategory": "LongTop",
-            "productPrice": 499,
-            "productMRP": 799,
-            "productColor": "Black",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["S","M","L"]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Solid",
-            "productSubCategory": "LongTop",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Female",
-            "productAgeRange": "",
-            "productNeckStyle": "RoundNeck",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": 200g","productNumberOfStocks": ,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "HalfSleeve",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-       21
-        },
-        {
-            "productId": 8
-            "productName":SeaGreenShorts
-            "productDescription": " This men’s Shorts features a solid pattern that never goes out of Styles. Comfortable Regular fit Designed with a regular fit, This Shorts Provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This Shorts offers exceptional softness and comfort. Versatile Short smart-casual look or a laid-back style ",
-            "productCategory": "Shorts",
-            "productPrice": 399,
-            "productMRP": 599,
-            "productColor": "Seagreen",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "Shorts",
-            "productCode": "",
-            "productOccasion": "Casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-       22
-        },
-        {
-            "productId": 8
-            "productName":BlackShorts
-            "productDescription": " This men’s Shorts features a solid pattern that never goes out of Styles. Comfortable Regular fit Designed with a regular fit, This Shorts Provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This Shorts offers exceptional softness and comfort. Versatile Short smart-casual look or a laid-back style ",
-            "productCategory": "Shorts",
-            "productPrice": 399,
-            "productMRP": 599,
-            "productColor": "Black",
-            "productDiscount": "30%",
-            "productImage": "",
-            "productSize": "["M","L","XL",]",
-            "productFitType": "Regularfit",
-            "productMaterial": "Cottonblend",
-            "productSubCategory": "Shorts",
-            "productCode": "",
-            "productOccasion": "casual",
-            "productPattern": "Solid",
-            "productGender": "Male",
-            "productAgeRange": "",
-            "productNeckStyle": "",
-            "relatedProducts": [],
-            "productDimension": "",
-            "productWeight": ","productNumberOfStocks": 15,
-            "productPostedDate": "",
-            "productTrending": true,
-            "productSleeveType": "",
-            "wishListed": "",
-            "addedToCart": "",
-            "isProductOrdered": "",
-            "productRating": 0
-     23
-        },
-        {
-            "productId": 9
-            "productName":PinkOversize
-            "productDescription": " ",
+            "productId": 4,
+            "productName":"BlackV-neckT-shirt",
+            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile V-Neck and Short Sleeves smart-casual look or a laid-back style .",
             "productCategory": "T-shirt",
             "productPrice": 499,
             "productMRP": 999,
-            "productColor": "",
+            "productColor": "Black",
             "productDiscount": "30%",
             "productImage": "",
-            "productSize": "["M","L",]",
+            "productSize": ["M","L","XL"],
             "productFitType": "Regularfit",
             "productMaterial": "Cottonblend",
-            "productSubCategory": "oversize",
+            "productSubCategory": "",
+            "productCode": "",
+            "productOccasion": "Casual",
+            "productPattern": "Solid",
+            "productGender": "Male",
+            "productAgeRange": "",
+            "productNeckStyle": "V-neck",
+            "relatedProducts": [],
+            "productDimension": "",
+            "productWeight": "200g",
+            "productNumberOfStocks": 15,
+            "productPostedDate": "",
+            "productTrending": true,
+            "productSleeveType": "Shortsleeve",
+            "wishListed": "",
+            "addedToCart": "",
+            "isProductOrdered": "",
+            "productRating": 0
+        },
+        {
+            "productId": 5,
+            "productName":"RedfullsleeveT-shirt",
+            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile Round Neck and Full Sleeves smart-casual look or a laid-back style .",
+            "productCategory": "T-shirt",
+            "productPrice": 599,
+            "productMRP": 1299,
+            "productColor": "Red",
+            "productDiscount": "30%",
+            "productImage": "",
+            "productSize": ["M","L","XL"],
+            "productFitType": "Regularfit",
+            "productMaterial": "Cottonblend",
+            "productSubCategory": "",
             "productCode": "",
             "productOccasion": "Casual",
             "productPattern": "Solid",
@@ -772,445 +435,16 @@ This top is made of premium, high-quality cotton and is a testament to comfort a
             "productNeckStyle": "RoundNeck",
             "relatedProducts": [],
             "productDimension": "",
-            "productWeight": 250g","productNumberOfStocks": 10,
+            "productWeight": "",
+            "productNumberOfStocks": 15,
             "productPostedDate": "",
             "productTrending": true,
-            "productSleeveType": "HalfSleeve",
+            "productSleeveType": "Fullsleeve",
             "wishListed": "",
             "addedToCart": "",
             "isProductOrdered": "",
             "productRating": 0
-        24
-        },
-           {
-        "productId": 9
-            "productName":TopueOversized","productDescription": " ",
-        "productCategory": "T-shirt",
-        "productPrice": 399,
-        "productMRP": 899,
-        "productColor": "Topue",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Male",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [
-            0
-        ],
-        "productDimension": "",
-        "productWeight": 250g","productNumberOfStocks": 10,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Halfsleev",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-         
-        25
-    },
-    {
-        "productId": 10
-            "productName":BlueT-shirt
-            "productDescription": " ",
-        "productCategory": "T-shirt",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Blue",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["XS","S","M","L",]""productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50G","productNumberOfStocks": 20,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-
-        26
-    },
-    {
-        "productId": 10
-            "productName":MintT-shirt
-            "productDescription": " ",
-        "productCategory": "T-shirt",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Mint",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["XS","S","M","L",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 20,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-            
-
-
-        27
-    },
-    {
-        "productId": 10
-            "productName":PurpleT-shirt
-            "productDescription": " ",
-        "productCategory": "T-shirt",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Purple",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["XS","S","M","L",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 20,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-            
-
-        28
-    },
-    {
-        "productId": 11
-            "productName":MintCropTop
-            "productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 399,
-        "productMRP": 599,
-        "productColor": "Mint",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "Top",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-            
-
-        29
-    },
-    {
-        "productId": 11
-            "productName":WhiteCropTop: ,
-        "productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "White",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "Top",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-            
-       30
-    },
-    {
-        "productId": 11
-            "productName":BlackCorpTop","productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Black",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-       31
-    },
-    {
-        "productId": 11
-            "productName":PimkCropTop
-            "productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Pink",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-
-         32
-    },
-    {
-        "productId": 11
-            "productName":GreyCropTop
-            "productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Gery",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-
-        33
-    },
-    {
-        "productId": 12
-            "productName":NaviCropTopKnot","productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Navi",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]""productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "Top",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-
-        34
-    },
-    {
-        "productId": 12
-            "productName":YellowCropTopKnot
-            "productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "Yellow",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-
-        35
-    },
-    {
-        "productId": 12
-            "productName":WhiteCropTopKnot
-            "productDescription": " ",
-        "productCategory": "Top",
-        "productPrice": 299,
-        "productMRP": 599,
-        "productColor": "White",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","XL",]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "Female",
-        "productAgeRange": "",
-        "productNeckStyle": "RoundNeck",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 50g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-
-       36
-    },
-    {
-        "productId": 1
-            "productName":NaviPoloT-shirt
-            "productDescription": "This men’s T-shirt features a solid pattern that never goes out of style .
-Comfortable Regular fit 
-  Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. 
-High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfort
-Versatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .","productCategory": "T-shirt",
-        "productPrice": 999,
-        "productMRP": 1599,
-        "productColor": "Navi",
-        "productDiscount": "30%",
-        "productImage": "",
-        "productSize": "["M","L","L"]",
-        "productFitType": "Regularfit",
-        "productMaterial": "Cottonblend",
-        "productSubCategory": "",
-        "productCode": "",
-        "productOccasion": "Casual",
-        "productPattern": "Solid",
-        "productGender": "",
-        "productAgeRange": "",
-        "productNeckStyle": "Polo",
-        "relatedProducts": [],
-        "productDimension": "",
-        "productWeight": 200g","productNumberOfStocks": 15,
-        "productPostedDate": "",
-        "productTrending": true,
-        "productSleeveType": "Shortsleeve",
-        "wishListed": "",
-        "addedToCart": "",
-        "isProductOrdered": "",
-        "productRating": 0
-    }
+        }
+       
 ]
 }

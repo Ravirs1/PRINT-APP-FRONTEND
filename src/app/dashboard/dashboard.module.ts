@@ -38,7 +38,8 @@ import { OrderService } from './account-details/order.service';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    SharedModule
+    SharedModule,
+    
   ],
   exports:[SharedModule],
   providers: [ProductListService,
