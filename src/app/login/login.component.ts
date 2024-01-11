@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { Router } from '@angular/router';
+import { AuthService } from './auth.service';
 
 @Component({
   selector: 'app-login',
@@ -14,48 +15,31 @@ export class LoginComponent implements OnInit {
 
   constructor(
     public afAuth: AngularFireAuth,
-    private router: Router
+    private router: Router,
+    private authService: AuthService
   ) { }
-
   ngOnInit(): void {
-    this.afAuth.authState.subscribe((res) => {
-      console.log(res)
-    })
+   
   }
-
-  signUpWithEmail(e: any) {
-    e.preventDefault()
-    console.log('called')
-    this.afAuth.createUserWithEmailAndPassword(this.email, this.password).then((credentials) => {
-      console.log(credentials)
-      this.SendVerificationMail();
-    })
-  }
-  signInWithEmail(e: any) {
-    e.preventDefault()
-    console.log('called')
-    this.afAuth.signInWithEmailAndPassword(this.email, this.password).then((credentials) => {
-      if(credentials.user?.emailVerified) {
-        // navigate to dashboard
-        console.log('verified')
-      } else {
-        // verify email
-      }
-      console.log(credentials)
-    })
-  }
-  SendVerificationMail() {
-    return this.afAuth.currentUser.then((u: any) => u.sendEmailVerification()).then(() => {
-        // this.router.navigate(['verify-email-address']);
-      });
-  }
-
-  ForgotPassword(passwordResetEmail: string) {
-      return this.afAuth.sendPasswordResetEmail(this.email).then(() => {
-         window.alert('Password reset email sent, check your inbox.');
-        })
-    .catch((error) => {
-    window.alert(error);
-    });
-  }
+  signUpWithEmail(e:any) {
+    e.preventDefault();
+  this.authService.signUpWithEmail();
 }
+
+// Example of logging in
+signInWithEmail(e:any) {
+  e.preventDefault();
+this.authService.signInWithEmail();
+}
+
+
+// Example of logging out
+logout() {
+this.authService.logout();
+}
+
+forgotPassword(email:string) {
+  this.authService.forgotPassword('email');
+}
+
+ }
