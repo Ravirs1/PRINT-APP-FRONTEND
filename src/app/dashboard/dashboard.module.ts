@@ -18,6 +18,7 @@ import { ProductListService } from './product-list/product-list.service';
 import { AccountDetailsService } from './account-details/account-details.service';
 import { CartService } from './cart/cart.service';
 import { OrderService } from './account-details/order.service';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { OrderService } from './account-details/order.service';
     CommonModule,
     DashboardRoutingModule,
     SharedModule,
+    CarouselModule
     
   ],
   exports:[SharedModule],

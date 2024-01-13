@@ -30,12 +30,22 @@
 
                         <div id="img-1" class="zoomWrapper single-zoom">
                             <a >
-                                <img id="zoom1" src="assets/img/product/product15.jpg" data-zoom-image="assets/img/product/product15.jpg" alt="big-1">
+                                <img id="zoom1" class="product-img" src="assets/img/product/product15.jpg" data-zoom-image="assets/img/product/product15.jpg" alt="big-1">
                             </a>
                         </div>
 
-                        <div class="single-zoom-thumb">
-                            <ul class="s-tab-zoom owl-carousel single-product-active" id="gallery_01">
+                        <!-- <div class="single-zoom-thumb"> -->
+
+                            <owl-carousel-o [options]="customOptions">
+                                <ng-container *ngFor="let product of products">
+                                  <ng-template carouselSlide >
+                                    <img class="img-carousel" [src]="product.image" [alt]="product.name" [title]="product.name">
+                                  </ng-template>
+                                </ng-container>
+                            
+                              </owl-carousel-o>
+                            
+                            <!-- <ul class="s-tab-zoom owl-carousel single-product-active" id="gallery_01">
                                 <li>
                                     <a  class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/product8.jpg" data-zoom-image="assets/img/product/product8.jpg">
                                         <img src="assets/img/product/product8.jpg" alt="zo-th-1" />
@@ -60,8 +70,8 @@
                                     </a>
 
                                 </li>
-                            </ul>
-                        </div>
+                            </ul> -->
+                        <!-- </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -69,12 +79,12 @@
                         <form action="#">
 
                             <h1>Nonstick Dishwasher PFOA</h1>
-                            <div class="product_nav">
+                            <!-- <div class="product_nav">
                                 <ul>
                                     <li class="prev"><a ><i class="fa fa-angle-left"></i></a></li>
                                     <li class="next"><a ><i class="fa fa-angle-right"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- <div class=" product_ratting">
                                 <ul>
                                     <li><a ><i class="fa fa-star"></i></a></li>
@@ -190,7 +200,7 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="reviews" role="tabpanel">
+                            <!-- <div class="tab-pane fade" id="reviews" role="tabpanel">
                                 <div class="reviews_wrapper">
                                     <h2>1 review for Donec eu furniture</h2>
                                     <div class="reviews_comment_box">
@@ -249,7 +259,7 @@
                                         </form>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -268,8 +278,15 @@
                     </div>
 
                     <!-- CAROUSEL ISSUE -->
-
-                    <div class="product_carousel product_column5 owl-carousel">
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-container *ngFor="let product of products">
+                          <ng-template carouselSlide >
+                            <img class="img-carousel" [src]="product.image" [alt]="product.name" [title]="product.name">
+                          </ng-template>
+                        </ng-container>
+                    
+                      </owl-carousel-o>
+                    <!-- <div class="product_carousel product_column5 owl-carousel">
                         <div class="single_product">
                             <div class="product_name">
                                 <h3><a href="product-details.html">JBL Flip 3 Splasroof Portable Bluetooth 2</a></h3>
@@ -553,7 +570,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -563,7 +580,7 @@
 
 
     <!-- modal area start-->
-    <div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
@@ -672,6 +689,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- modal area end-->
