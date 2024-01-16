@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable, map, startWith } from 'rxjs';
 import  ProductList from '../../../assets/local-database/product-details.json';
+import { Router } from '@angular/router';
+import { AuthService } from 'src/app/login/auth.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -11,12 +13,17 @@ export class HeaderComponent implements OnInit {
   search = new FormControl('');
   options: any = [];
   filteredOptions!: Observable<string[]>;
-  productList: any = ProductList
+  productList: any = ProductList;
   JSONobservable: any;
+  isLoggedIn:any;
 
-  constructor() { }
+  constructor(
+    private router: Router,
+    private authService: AuthService
+  ) { }
 
   ngOnInit(): void {
+    this.isLoggedIn = this.authService.isLoggedIn();
     this.createObservableFromJSON();
     this.JSONobservable.subscribe((data:any)=>{
       console.log(data); // users array display
@@ -50,6 +57,10 @@ export class HeaderComponent implements OnInit {
     console.log(this.options.filter((option: string) => option.toLowerCase().includes(filterValue)))
     console.log(this.filteredOptions)
     return this.options.filter((option: string) => option.toLowerCase().includes(filterValue));
+  }
+
+  routeToLogin() {
+    this.router.navigate(['login']);
   }
 
 }

@@ -12,6 +12,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { FaqComponent } from './faq/faq.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { AccountDetailsComponent } from './account-details/account-details.component';
+import { UserAuthGuard } from '../shared/guards/user-guard/user-auth.guard';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent,
@@ -20,13 +21,13 @@ const routes: Routes = [
     { path: 'about', component: AboutComponent},
     { path: 'products', component: ProductListComponent},
     {path: 'product/:id', component:ProductDetailComponent},
-    {path: 'my-cart', component: CartComponent},
-    {path: 'wish-list',component: WishListComponent },
+    {path: 'my-cart', component: CartComponent,canActivate:[UserAuthGuard]},
+    {path: 'wish-list',component: WishListComponent ,canActivate:[UserAuthGuard]},
     {path: 'contact-us' , component: ContactComponent},
-    { path: 'checkout', component: CheckoutComponent},
+    { path: 'checkout', component: CheckoutComponent, canActivate:[UserAuthGuard]},
     { path: 'faq', component: FaqComponent},
     { path: 'privacy-policy', component: PrivacyPolicyComponent},
-    { path: 'my-account', component: AccountDetailsComponent},
+    { path: 'my-account', component: AccountDetailsComponent, canActivate:[UserAuthGuard]},
     {path: '', redirectTo: '', pathMatch: 'full'},
   ],
 }

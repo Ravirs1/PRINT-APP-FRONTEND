@@ -10,8 +10,8 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 })
 export class AuthService {
   user$!: Observable<any>;
-  email!: string;
-  password!: string;
+  email: string = 'ravi.rr2015rs@gmail.com';
+  password: string = 'test12345';
 
   constructor(
     private afAuth: AngularFireAuth,
@@ -38,16 +38,20 @@ export class AuthService {
       console.log(credentials)
       this.SendVerificationMail();
       const user = credentials.user;
+      this.router.navigate(['verify-account']);
       return this.updateUserData(user, { role });
     })
   }
-  signInWithEmail() {
+  signInWithEmail(email: string, password: string) {
     // e.preventDefault()
     console.log('called')
-    this.afAuth.signInWithEmailAndPassword(this.email, this.password).then((credentials) => {
-      if(credentials.user?.emailVerified) {
+    this.afAuth.signInWithEmailAndPassword(this.email, this.password).then((credentials: any) => {
+      console.log(credentials)
+      if(credentials.user.emailVerified) {
         // navigate to dashboard
+        sessionStorage.setItem('credentials', JSON.stringify(credentials));
         console.log('verified')
+        this.router.navigate(['dashboard'])
       } else {
         // verify email
       }
@@ -73,6 +77,7 @@ export class AuthService {
     return this.afAuth.signOut()
       .then(() => {
         this.router.navigate(['/login']);
+        sessionStorage.clear();
       })
       .catch((error) => {
         console.error('Logout Error:', error);
@@ -83,6 +88,10 @@ export class AuthService {
   private updateUserData(user: any, additionalData: any) {
     const userRef = this.afs.doc(`users/${user.uid}`);
     return userRef.set({ uid: user.uid, email: user.email, ...additionalData }, { merge: true });
+  }
+
+  isLoggedIn() {
+    return sessionStorage.getItem('credentials');
   }
 
 }

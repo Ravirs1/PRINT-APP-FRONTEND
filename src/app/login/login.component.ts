@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
 // Example of logging in
 signInWithEmail(e:any) {
   e.preventDefault();
-this.authService.signInWithEmail();
+this.authService.signInWithEmail(this.email, this.password);
 }
 
 

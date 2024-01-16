@@ -14,17 +14,11 @@ export class UserAuthGuard implements CanActivate {
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
   ): Observable<boolean> | boolean {
-    return this.authService.user$.pipe(
-      take(1),
-      map((user) => {
-        if (user) {
-          return true;
-        } else {
-          // Redirect to login page when the user is not authenticated
-          this.router.navigate(['/login']);
-          return false;
-        }
-      })
-    );
+    if(this.authService.isLoggedIn()) {
+      return true;
+    } else {
+      this.router.navigate(['login']);
+      return false;
+    }
   }
 }
