@@ -40,6 +40,7 @@ this.authService.logout();
 
 forgotPassword(email:string) {
   this.authService.forgotPassword('email');
+  this.router.navigate(['forget-password']);
 }
 
  }

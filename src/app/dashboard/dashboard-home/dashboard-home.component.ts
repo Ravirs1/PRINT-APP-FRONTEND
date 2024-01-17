@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ProductListService } from '../product-list/product-list.service';
 
 @Component({
   selector: 'app-dashboard-home',
@@ -7,21 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardHomeComponent implements OnInit {
 
-  productList = [
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-    {productId: 1, productImg: 'assets/img/product/product1.jpg',productTitle: 'Variable with soldout product for title', productPrice: '$180.00', productMrp: '$480.00'},
-  ]
+  productList:any;
 
-  constructor() { }
+  constructor(
+    private readonly productListService: ProductListService,
+    private readonly router: Router
+  ) { }
 
   ngOnInit(): void {
+    this.getProductList();
+  }
+
+  getProductList() {
+    this.productListService.getProducts().subscribe((products) => {
+      this.productList = products;
+      console.log(products)
+    });
+  }
+
+  routeToProductDetails(product: any) {
+    this.router.navigate([`dashboard/product/${product.productId}`]);
   }
 
 }

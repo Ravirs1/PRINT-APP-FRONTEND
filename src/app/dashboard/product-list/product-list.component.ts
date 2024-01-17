@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductListService } from './product-list.service';
 import { Product } from 'src/app/models/products.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -17,10 +18,10 @@ export class ProductListComponent implements OnInit {
     productDescription: "This men's T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
     productCategory: "t-shirt",
     productPrice: 999,
-    productColor: ["Black"],
+    productColor: [{ productId: '', color: "Black"} ],
     productMRP: 1599,
     productDiscount: 30,
-    productImage: "",
+    productImage: [""],
     productSize: ["M","L","L"],
     productFitType: "RegularFit",
     productMaterial: "Cotton Blend",
@@ -32,6 +33,7 @@ export class ProductListComponent implements OnInit {
     productAgeRange: "",
     productNeckStyle: "Polo",
     relatedProducts: [],
+    recommendedProducts: [],
     productDimension: "",
     productWeight: "200g",
     productNumberOfStocks: 15,
@@ -50,16 +52,17 @@ updateSingleProduct =    {
   productDescription: "This men's T-shirt features a solid pattern that never goes out of style .Comfortable Regular fit Designed with a regular fit, this T-shirt provides a comfortable and flattering silhouette for men of all body types. High-Quality Pure cotton Fabric Crafted from pure cotton fabric, This T-shirt offers exceptional softness and comfortVersatile Polo Neck and Short Sleeves smart-casual look or a laid-back style .",
   productCategory: "t-shirt",
   productPrice: 999,
-  productColor: ["Black"],
+  productColor: [{ productId: '', color: "Black"} ],
   productMRP: 1599,
   productDiscount: 30,
-  productImage: "",
+  productImage: [""],
   productSize: ["M","L","L"],
   productFitType: "RegularFit",
   productMaterial: "Cotton Blend",
   productSubCategory: "T-shirt",
   productCode: "",
   productOccasion: "Casual",
+  recommendedProducts: [],
   productPattern: "Solid",
   productGender: "Male",
   productAgeRange: "",
@@ -77,7 +80,8 @@ updateSingleProduct =    {
   productRating: 0
 }
   constructor(
-    private readonly productListService: ProductListService
+    private readonly productListService: ProductListService,
+    private readonly router: Router
   ) {
 
   }
@@ -115,6 +119,10 @@ updateSingleProduct =    {
       // Handle error
       console.error('Error deleting product: ', error);
     });
+  }
+
+  routeToProductDetails(product: any) {
+    this.router.navigate([`dashboard/product/${product.productId}`]);
   }
 
 }

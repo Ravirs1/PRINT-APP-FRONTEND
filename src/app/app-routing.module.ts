@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { VerifyAccountComponent } from './dashboard/verify-account/verify-account.component';
+import { ForgetPasswordComponent } from './dashboard/forget-password/forget-password.component';
 
 const routes: Routes = [
   { path: '', redirectTo:'dashboard',pathMatch: 'full'},
   { path: 'login', component: LoginComponent},
   { path: 'verify-account', component: VerifyAccountComponent},
+  { path: 'forget-password', component: ForgetPasswordComponent},
   {
     path: 'dashboard', 
     loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)

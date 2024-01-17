@@ -6,9 +6,9 @@ export interface Product {
     productCategory: string;
     productPrice: number;
     productMRP: number;
-    productColor: string[];
+    productColor: ProductColor[];
     productDiscount: number;
-    productImage: string;
+    productImage: string[];
     productSize: string[];
     productFitType: string;
     productMaterial: string;
@@ -19,7 +19,8 @@ export interface Product {
     productGender: string;
     productAgeRange: string;
     productNeckStyle: string;
-    relatedProducts: number[];
+    relatedProducts: string[];
+    recommendedProducts: Product[];
     productDimension: string;
     productWeight: string;
     productNumberOfStocks: number;
@@ -30,4 +31,9 @@ export interface Product {
     addedToCart: boolean;
     isProductOrdered: boolean;
     productRating: number;
+  }
+
+  export interface ProductColor {
+    productId: string;
+    color: string;
   }

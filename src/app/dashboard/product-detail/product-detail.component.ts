@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { ProductListService } from '../product-list/product-list.service';
+import { ActivatedRoute } from '@angular/router';
+import { Product } from 'src/app/models/products.model';
 
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.scss']
 })
-export class ProductDetailComponent {
+export class ProductDetailComponent implements OnInit{
+
+  showDescription: boolean = true;
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
@@ -36,7 +41,29 @@ export class ProductDetailComponent {
   { id: '1', name: 'test1', image: 'assets/img/product/product8.jpg'},
   { id: '2',name: 'test1', image: 'assets/img/product/product8.jpg'},
   { id: '3',name: 'test1', image: 'assets/img/product/product8.jpg'},
-  { id: '4',name: 'test1', image: 'assets/img/product/product8.jpg'}]
-  constructor() {}
+  { id: '4',name: 'test1', image: 'assets/img/product/product8.jpg'}];
 
-}
+  product!: any;
+  constructor(
+    private productService: ProductListService,
+    private route: ActivatedRoute
+  ) {}
+
+  ngOnInit() {
+    this.route.params.subscribe((params: any) => {
+      this.getProductDetails(params.id);
+    })
+   
+  }
+
+  getProductDetails(productId: any) {
+      this.productService.getProductById(productId).subscribe((product) => {
+        this.product = product;
+        console.log(product)
+      });
+    }
+    showDescriptionTab(description: boolean) {
+      this.showDescription = description;
+    }
+  }
+

@@ -19,6 +19,7 @@ import { AccountDetailsService } from './account-details/account-details.service
 import { CartService } from './cart/cart.service';
 import { OrderService } from './account-details/order.service';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     CheckoutComponent,
     FaqComponent,
     PrivacyPolicyComponent,
-    AccountDetailsComponent
+    AccountDetailsComponent,
+    ForgetPasswordComponent
   ],
   imports: [
     CommonModule,
